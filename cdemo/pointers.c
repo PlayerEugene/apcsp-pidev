@@ -20,8 +20,8 @@ int main()
 
   float d = 1.5;
   float e = 2.5;
-  printf("The address of d is %d\n", &d);
-  printf("The address of e is %d\n", &e);
+  printf("The address of d is %f\n", &d);
+  printf("The address of e is %f\n", &e);
   float* ad = &d;
   float* ae = &e;
   float tmp;
