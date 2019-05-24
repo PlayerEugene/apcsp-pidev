@@ -9,7 +9,7 @@ float areaOfCircle(float r)
 int main()
 {
 	float a = 3.5;
-	while (a < 12.5)
+	while (a <= 12.5)
 	{
 	float r = areaOfCircle(a);
 	printf("The area of a circle with radius %f is %f\n", a, r);
